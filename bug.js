@@ -1,0 +1,1 @@
+This bug occurs when using Tailwind CSS with a framework like Next.js or Nuxt.js that uses server-side rendering (SSR).  The issue is that Tailwind's purge functionality, designed to remove unused CSS classes, may not properly identify classes used conditionally or dynamically during runtime.  This leads to missing styles in the production build.
